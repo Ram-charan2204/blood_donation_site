@@ -1,0 +1,100 @@
+html {
+  background-image: url('blood.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-attachment: fixed;
+}
+img {
+    width: 6rem;
+    height: 3rem;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+.h {
+    background-color: rgba(0,0,0,0.2);
+    width: fit-content;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 100px;
+    margin-bottom: -60px;
+}
+h1{
+    background-image: url('dbms4.jpg');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 40px;
+}
+.home {
+    background-color: rgba(0,0,0,0.4);
+    transform: translateY(20vh);
+    margin-left: 40%;
+    height: 15rem;
+    width: 25rem;
+    vertical-align: center;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    font-weight: bolder;
+}
+ul{
+    list-style-type: none;
+    vertical-align: center;
+}
+ul  li a{
+    text-decoration: none;
+    margin-top: 100px;
+    position: absolute;
+    margin-bottom: -100px;
+    transform: translateX(-80px);
+    box-sizing: border-box;
+    font-size: 22px;
+    display: inline-block;
+    width: fit-content;
+    vertical-align: center;
+    color: white;
+    font-weight: bolder;
+}
+ .a1{
+    background-color: rgba(0,0,0,0.8);
+    margin-top:30px;
+    text-align: center;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    width: 15rem;
+    transform: translateX(-140px);
+    box-shadow: 10px 10px 12px rgba(0,0,0,0.6);
+}
+.a2{
+    background-color: rgba(0,0,0,0.8);
+    transform:translateY(20px);
+    margin-left:-25%;
+    margin-top: 125px;
+    margin-bottom: -100px;
+    border: 3px solid #ffffff;
+    text-align: center;
+    border-radius: 15px;
+    width: 15rem;
+    transform: translateX(-40px);
+    box-shadow: 10px 10px 12px rgba(0,0,0,0.6);
+}
+.a1:hover {
+    background-color: white;
+    color: black;
+    font-weight: boldest;
+}
+.a2:hover {
+    background-color: white;
+    color: black;
+    font-weight: boldest;
+}
+.a1:active {
+    background-color: olive;
+}
+.a2:active {
+    background-color: olive;
+}

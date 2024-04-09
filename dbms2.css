@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+
+html {
+  background-image: url('blood.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-attachment: fixed;
+}
+img {
+    width: 6rem;
+    height: 3rem;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+h1{
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.home {
+    background-color: rgba(0,0,0,0.4);
+    transform: translateY(20vh);
+    margin-left: 35%;
+    height: auto;
+    width: 25rem;
+    vertical-align: center;
+    line-height: 50px;
+    text-align: left;
+    position: relative;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: -70px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+.inp{
+  color: black;
+  margin: auto;
+  font-size: 1.2em;
+  margin-left: -30px;
+  border-radius: 5px;
+  background-color: white;
+
+}
+.sub{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: translateX(150px);
+}
+.inp:active{
+  border: 1px solid black;
+  color: white;
+}
+.home{
+  max-width: 50%;
+  height: 25rem;
+}
+.inp{
+background-color: #eeeeee;
+}
+.btn{
+background-color: #ffffff;
+font-size: 1.5rem;
+border: 1px solid white;
+border-radius: 4px;
+transform: translate(50px,10px);
+}
+.btn:hover{
+background-color: #000000;
+color: #ffffff;
+cursor: pointer;
+}
+.btn:active{
+background-color: olive;
+}
+.quo{
+font-size: 2cap;
+color: olivedrab;
+transform: translate(450px,150px);
+}
